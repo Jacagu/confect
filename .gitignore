@@ -3,6 +3,6 @@
 .tsup
 .vscode/
 coverage/
-dist/
+# dist/
 node_modules/
 tsconfig.vitest-temp.json

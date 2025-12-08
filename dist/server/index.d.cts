@@ -446,7 +446,7 @@ declare const makeFunctions: <ConfectSchema extends GenericConfectSchema>(confec
     mutation: <ConvexValue extends DefaultFunctionArgs, ConfectValue, ConvexReturns_2, ConfectReturns_2, E_2>({ args, returns, handler, }: {
         args: Schema.Schema<ConfectValue, ConvexValue>;
         returns: Schema.Schema<ConfectReturns_2, ConvexReturns_2>;
-        handler: (a: ConfectValue) => Effect.Effect<ConfectReturns_2, E_2, ConfectMutationCtx<ConfectDataModelFromConfectSchema<ConfectSchema>>>;
+        handler: (a: ConfectValue) => Effect.Effect<ConfectReturns_2, E_2, ConfectQueryCtx<ConfectDataModelFromConfectSchema<ConfectSchema>> | ConfectMutationCtx<ConfectDataModelFromConfectSchema<ConfectSchema>>>;
     }) => RegisteredMutation<"public", ConvexValue, Promise<ConvexReturns_2>>;
     internalMutation: <ConvexValue extends DefaultFunctionArgs, ConfectValue_1, ConvexReturns_3, ConfectReturns_3, E_3>({ args, returns, handler, }: {
         args: Schema.Schema<ConfectValue_1, ConvexValue>;
