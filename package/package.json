@@ -1,6 +1,6 @@
 {
-  "version": "0.0.32-fix.3",
-  "name": "@heavysolutions/confect",
+  "name": "@rjdellecese/confect",
+  "version": "0.0.32",
   "description": "Use Effect with Convex!",
   "repository": {
     "type": "git",
@@ -28,14 +28,6 @@
         "types": "./dist/server/index.d.cts",
         "require": "./dist/server/index.cjs"
       }
-    },
-    "./server/schema": {
-      "import": "./dist/server/schema.js",
-      "types": "./dist/server/schema.d.ts"
-    },
-    "./server/schema-to-validator": {
-      "import": "./dist/server/schema-to-validator.js",
-      "types": "./dist/server/schema-to-validator.d.ts"
     },
     "./react": {
       "import": {

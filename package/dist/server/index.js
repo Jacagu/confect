@@ -1,15 +1,13 @@
 import {
+  Id_exports,
+  compileArgsSchema,
+  compileReturnsSchema,
+  compileSchema,
   confectSystemSchemaDefinition,
   defineSchema,
   defineTable,
   extendWithSystemFields
-} from "../chunk-WLH6YIZ4.js";
-import {
-  Id_exports,
-  compileArgsSchema,
-  compileReturnsSchema,
-  compileSchema
-} from "../chunk-KZFLXURY.js";
+} from "../chunk-V6ZVKRQJ.js";
 import {
   __export
 } from "../chunk-PZ5AY32C.js";

@@ -2,11 +2,9 @@ import { UserIdentity, GenericDocument, GenericFieldPaths, GenericTableIndexes, 
 import { GenericId } from 'convex/values';
 import { Effect, Option, Cause, Stream, ParseResult, Context, Schema, Layer, SchemaAST } from 'effect';
 import { ReadonlyRecord } from 'effect/Record';
-import { ReadonlyValue } from './schema-to-validator.js';
-export { compileSchema } from './schema-to-validator.js';
+import { R as ReadonlyValue, C as ConfectSystemDataModel, G as GenericConfectSchema, a as ConfectSchemaDefinition, b as ConfectDataModelFromConfectSchema } from '../schema-mA1DDOxG.js';
+export { c as ConfectDataModelFromConfectSchemaDefinition, f as compileSchema, d as defineSchema, e as defineTable } from '../schema-mA1DDOxG.js';
 import * as effect_Types from 'effect/Types';
-import { ConfectSystemDataModel, GenericConfectSchema, ConfectSchemaDefinition, ConfectDataModelFromConfectSchema } from './schema.js';
-export { ConfectDataModelFromConfectSchemaDefinition, defineSchema, defineTable } from './schema.js';
 import { HttpApi as HttpApi$1, HttpApp, HttpApiBuilder, HttpRouter, HttpApiScalar } from '@effect/platform';
 
 interface ConfectAuth {
